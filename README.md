@@ -31,7 +31,7 @@ python system_health_dashboard.py
 Press Ctrl + C to stop monitoring at any time.
 
 🖥️ Demo Output
-![Demo Output](https://github.com/partz2510/system-health-dashboard/blob/main/demo_output.png?raw=true)
+![Demo Output](https://github.com/partz2510/system-health-dashboard/blob/main/screenshots/demo_output.png?raw=true)
 
 🧩 Output Explanation
 Metric	Meaning
