@@ -1,4 +1,4 @@
-!# ⚙️ System Health Dashboard
+# ⚙️ System Health Dashboard
 
 A lightweight Python **command-line dashboard** that displays real-time system performance metrics using [`psutil`](https://pypi.org/project/psutil/) and [`rich`](https://pypi.org/project/rich/).
 
