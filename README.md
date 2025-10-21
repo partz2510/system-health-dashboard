@@ -2,7 +2,7 @@
 
 A lightweight Python **command-line dashboard** that displays real-time system performance metrics using [`psutil`](https://pypi.org/project/psutil/) and [`rich`](https://pypi.org/project/rich/).
 
-This project showcases **Python automation, system monitoring, and terminal UI design** — all in under 100 lines of code.
+This project showcases **Python automation, system monitoring, and terminal UI design**
 
 ---
 
