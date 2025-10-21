@@ -28,45 +28,34 @@ pip install psutil rich
 
 # 3️⃣ Run the dashboard
 python system_health_dashboard.py
+```
+
 Press Ctrl + C to stop monitoring at any time.
 
-🖥️ Demo Output
+# 🖥️ Demo Output
 ![Demo Output](https://github.com/partz2510/system-health-dashboard/blob/main/screenshots/demo_output.png?raw=true)
 
-🧩 Output Explanation
+# 🧩 Output Explanation
 Metric	Meaning
 CPU Usage (%)	The percentage of CPU currently being used across all cores. A sudden spike may indicate heavy processing.
 Memory Usage (%)	The amount of RAM currently used. Shows both used and total GB for clarity.
 Disk Usage (%)	How much of your main disk drive is in use vs total capacity.
 Network Sent / Received (MB)	Data uploaded and downloaded since system boot, updated every 2 seconds.
 
-💡 How It Works
+# 💡 How It Works
 psutil collects live system metrics (CPU load, memory, disk, and network I/O).
-
 rich renders the metrics into a visually styled table refreshed continuously in the terminal.
-
 The script runs indefinitely until you stop it manually.
 
-🚀 Ideas to Extend
-Add GPU temperature or process list
 
-Log metrics to a CSV file for later analysis
-
-Integrate with a Flask or FastAPI web dashboard
-
-Add threshold alerts when usage exceeds limits
-
-🧠 Learning Takeaways
+# 🧠 Learning Takeaways
 This project demonstrates:
 
 Real-time data collection and visualization
-
 Clean Python scripting practices
-
 Basic system administration concepts
-
 Automation mindset valuable for SOC and DevOps roles
 
-📜 License
+# 📜 License
 MIT — feel free to fork, modify, and share your version.
 
